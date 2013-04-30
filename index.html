@@ -1,6 +1,10 @@
 <! DOCTYPE HTML>
 <html>
 	<head>
+		<script>
+			function welcome() {
+			document.getElementById("container").innerHTML="welcome.html";
+		</script>
 		<link rel="stylesheet" type="text/css" href="stylesheets.css">
 		<title>
 			Foamy Panda Web Creative
@@ -9,18 +13,29 @@
 	<body>
 	<h1>Foamy Panda Creations</h1>
 		<div class="menu">
-			<a href="about.html">About Foamy Panda Creations</a>
-			<a href="team.html">The Team</a>
-			<a href="affiliates.html">Our Affiliates</a>
-			<a href="contact.html">Contact Us</a>
+			<ul>
+				<li><a id="home" href="index.html">Home</a></li>
+				<li><a id="aboutUs" href="about.html">About Foamy Panda Creations</a></li>
+				<li><a href="team.html">The Team</a></li>
+				<li><a href="affiliates.html">Our Affiliates</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
 		</div>
-		<div class="welcome">
-			<p>
+		<div id="container">
+		<p id="welcome">
 				Hello and welcome to Foamy Panda Creations!
 				We are the first port of call for your web needs. 
 				Whatever the need of your website, we are here to make it a reality.
 				Please folow the links on the left hand side of this page to find out more about us and our organisation.
 			</p>
-		</div>
+			<p id="about">
+				Foamy Panda Creations is a Canterbury based web development company founded by Lee Walker in 2013 while he was 
+				taking is undergaduate degree in computer science at the University of Kent. During this time he developed
+				a keen interest in the various aspects of web development with a particular interest in CSS. The approach 
+				taken by Foamy Panda Creations is that of minimalism. The fewer items displayed on a web page the better.
+				Foamy Panda Creations also pride themselves in using as few pages for a site as possible, instead using 
+				JavaScript to dynamically change the content of a web page to display additional information.
+			</p>
+		</div>	
 	</body>
 </html>

@@ -9,16 +9,31 @@ h1 {
 }
 
 .menu {
+	margin-bottom:50px;
+}
+
+.menu ul {
+	list-style-type:none;
+	margin: 0 auto;
+	padding:0.35%;
+}
+
+.menu li {
 	text-align:center;
+	background-color:#000000;
+	display:inline;
+	float:left;
+	border-style:solid;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
 }
 
 .menu a {
-	text-align:center;
-	background-color:#000000;
-	border-style:none;
+	text-decoration:none;
 	color:#ffffff;
-	padding:0.5%;
-	font-size:1.25em;
+	display:block;
+	width:192px;
 }
 
 .welcome {
@@ -37,4 +52,8 @@ h1 {
 
 .welcome p {
 	color:#ffffff;
+}
+
+.about {
+	display:none;
 }
