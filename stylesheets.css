@@ -1,0 +1,40 @@
+body {
+	background-color:#ffffff;	
+}
+
+h1 {
+	color:#000000;
+	text-align:center;
+	font-size:5em;
+}
+
+.menu {
+	text-align:center;
+}
+
+.menu a {
+	text-align:center;
+	background-color:#000000;
+	border-style:none;
+	color:#ffffff;
+	padding:0.5%;
+	font-size:1.25em;
+}
+
+.welcome {
+	background-color:#000000;
+	border-style:solid;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	display:block;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:0.05%;
+	padding:0.5%;
+	font-size:1.25em;
+}
+
+.welcome p {
+	color:#ffffff;
+}
